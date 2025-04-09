@@ -1,0 +1,12 @@
+{
+  "name": "strong-globalize",
+  "version": "1.0.1",
+  "description": "Simplified mock of strong-globalize",
+  "main": "index.js",
+  "keywords": [
+    "i18n",
+    "mock"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
