@@ -52,7 +52,7 @@ class StrongGlobalize {
     if (variables) {
       let result = msgPath;
       Object.keys(variables).forEach(key => {
-        result = result.replace(new RegExp(`{${key}}`, 'g'), variables[key]);
+        result = result.replace(new RegExp(`${key}`, 'g'), variables[key]);
       });
       return result;
     }
